@@ -9,6 +9,11 @@ description = "Inspectable Socratic tutoring baseline that selects restrained hi
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [{name = "Devis Wawan Saputra"}]
+readme = "README.md"
+keywords = ["ai-in-education", "aied", "adaptive-learning", "socratic-tutoring", "learning-analytics"]
+
+[project.urls]
+Repository = "https://github.com/devissaputra/adaptive_socratic_tutor"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
