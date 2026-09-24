@@ -2,11 +2,11 @@
 
 > Inspectable Socratic tutoring baseline that selects restrained hints from attempt history and an explicit mastery estimate.
 
-[![CI](https://github.com/devissaputra/adaptive-socratic-tutor/actions/workflows/ci.yml/badge.svg)](https://github.com/devissaputra/adaptive-socratic-tutor/actions/workflows/ci.yml)
+[![CI](https://github.com/devissaputra/adaptive_socratic_tutor/actions/workflows/ci.yml/badge.svg)](https://github.com/devissaputra/adaptive_socratic_tutor/actions/workflows/ci.yml)
 
 ![Adaptive Socratic Tutor workflow](assets/architecture.svg)
 
-**Area:** Adaptive Instruction & Feedback    
+**Area:** AI in Education (AIEd) · Adaptive Instruction & Feedback    
 **Status:** working research prototype  
 **Author:** Devis Wawan Saputra
 
@@ -51,7 +51,7 @@ Includes synthetic tutoring sessions and no proprietary learner conversations.
 ## Run the demo
 
 ```bash
-git clone https://github.com/devissaputra/adaptive-socratic-tutor.git
+git clone https://github.com/devissaputra/adaptive_socratic_tutor.git
 cd adaptive-socratic-tutor
 python scripts/run_demo.py
 python -m unittest discover -s tests -v
