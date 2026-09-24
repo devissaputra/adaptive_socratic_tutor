@@ -16,7 +16,9 @@ This prototype explores a simple question: how can an AI tutor help without taki
 
 **Who may find it useful:** Researchers and instructional designers studying tutoring policies, productive struggle, and learner-controlled help.
 
-## Research questions
+## Questions for empirical validation
+
+The current policy baseline makes these questions testable; the synthetic demo does not answer them.
 
 1. Can a tutoring policy provide useful help without revealing answers too early?
 2. How should hint depth respond to attempt history and estimated mastery?
