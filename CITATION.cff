@@ -5,6 +5,6 @@ type: software
 authors:
   - family-names: "Saputra"
     given-names: "Devis Wawan"
-repository-code: "https://github.com/devissaputra/adaptive-socratic-tutor"
+repository-code: "https://github.com/devissaputra/adaptive_socratic_tutor"
 license: MIT
 version: 0.1.0
