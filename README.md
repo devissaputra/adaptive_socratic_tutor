@@ -54,7 +54,7 @@ Includes synthetic tutoring sessions and no proprietary learner conversations.
 
 ```bash
 git clone https://github.com/devissaputra/adaptive_socratic_tutor.git
-cd adaptive-socratic-tutor
+cd adaptive_socratic_tutor
 python scripts/run_demo.py
 python -m unittest discover -s tests -v
 ```
