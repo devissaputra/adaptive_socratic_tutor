@@ -13,7 +13,7 @@
 <rect x="277.5" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
 <circle cx="302.5" cy="145" r="14" fill="#38598b"/>
 <text x="302.5" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
-<text x="372.5" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Mastery estimate</text>
+<text x="372.5" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#26323d">Mastery input</text>
 <line x1="475.5" y1="166.0" x2="497.0" y2="166.0" stroke="#8391a1" stroke-width="2"/>
 <path d="M 489.0 160.0 L 497.0 166.0 L 489.0 172.0" fill="none" stroke="#8391a1" stroke-width="2"/>
 <rect x="505.0" y="120" width="190" height="92" rx="16" fill="#ffffff" stroke="#38598b" stroke-width="2"/>
