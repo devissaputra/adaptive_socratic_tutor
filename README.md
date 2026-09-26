@@ -1,14 +1,29 @@
 # Adaptive Socratic Tutor
 
+This compact tutoring policy selects a level of support from supplied mastery and attempt counts. Its rules escalate from a focused question to a worked sub-step while keeping the full answer outside the main response policy. The synthetic examples make the decision boundaries easy to inspect, but the package neither estimates mastery nor demonstrates improved learning.
+
+## Start here
+
+- [Calculations, evidence and verification scope](CALCULATIONS.md)
+- [Figure sources and exact numerical paths](docs/figure_spec.json)
+- [Data status](data/README.md)
+
+![Study question, data, design and interpretation](assets/review_overview.svg)
+
+![Defined calculation and source-linked evidence](assets/review_calculations.svg)
+
+**Review scope:** 6 existing unittest checks passed. The bundled demonstration executed successfully in this review.
+
+## Detailed project documentation
+
 > Inspectable Socratic tutoring baseline that selects restrained hints from attempt history and an explicit mastery estimate.
 
 [![CI](https://github.com/devissaputra/adaptive_socratic_tutor/actions/workflows/ci.yml/badge.svg)](https://github.com/devissaputra/adaptive_socratic_tutor/actions/workflows/ci.yml)
 
-![Adaptive Socratic Tutor workflow](assets/architecture.svg)
 
 **Area:** AI in Education (AIEd) · Adaptive Instruction & Feedback    
 **Status:** working research prototype  
-**Author:** Devis Wawan Saputra
+**Author:** Devis Saputra
 
 ## What this project is for
 
@@ -28,11 +43,9 @@ The current policy baseline makes these questions testable; the synthetic demo d
 
 The current baseline is deliberately transparent. Attempt count and mastery are passed into a small policy that chooses one of four support levels, then maps that level to a Socratic tutoring move. Nothing is hidden behind an external model call, so the decision rule can be inspected line by line.
 
-![Adaptive Socratic Tutor data and reasoning flow](assets/data_flow.svg)
 
 The flow separates learner evidence, the support decision, and the prompt that follows. That makes it possible to test whether a policy changes help too early, too late, or too aggressively.
 
-![Synthetic demo snapshot for Adaptive Socratic Tutor](assets/demo_snapshot.svg)
 
 This snapshot shows the bundled synthetic example for Adaptive Socratic Tutor. It checks the software path; it is not an empirical performance result.
 
@@ -67,7 +80,6 @@ I would next compare this policy with a fixed hint baseline and a stronger adapt
 
 ## Evaluation view
 
-![Adaptive Socratic Tutor evaluation dashboard](assets/evaluation_dashboard.svg)
 
 The Adaptive Socratic Tutor dashboard is an evaluation checklist rather than a result chart. The bars are illustrative only; the labels show the evidence a real study would need to collect.
 

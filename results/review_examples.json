@@ -1,0 +1,8 @@
+{
+  "kind": "illustrative_calculation",
+  "note": "Supplied policy inputs; no learner outcome.",
+  "outputs": {
+    "hint level (2 attempts, mastery .5)": 2,
+    "hint level (0 attempts, mastery .9)": 0
+  }
+}

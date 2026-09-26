@@ -1,3 +1,7 @@
+# Calculation reading guide: ../CALCULATIONS.md (repository root).
+# Hint level ∈ {0,1,2,3}; lower mastery or more attempts can increase support.
+# Mastery is an input, not inferred by this tutor. Thresholds are authored policy choices. Returning a template does not establish correctness, learning benefit, or a conversational language model.
+
 def _validate_state(attempts: int, mastery: float) -> None:
     if attempts < 0:
         raise ValueError("attempts must be non-negative")

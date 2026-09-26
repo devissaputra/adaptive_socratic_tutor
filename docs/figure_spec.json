@@ -1,0 +1,30 @@
+{
+  "question": "How much help should a transparent tutoring policy offer?",
+  "data": "Supplied mastery and attempt counts; small synthetic examples.",
+  "method": "Apply explicit thresholds to choose monitoring, a question, a concept hint, or a worked sub-step.",
+  "formula": "Hint level ∈ {0,1,2,3}; lower mastery or more attempts can increase support.",
+  "interpretation": "Mastery is an input, not inferred by this tutor. Thresholds are authored policy choices. Returning a template does not establish correctness, learning benefit, or a conversational language model.",
+  "status": "SYNTHETIC / RULE-BASED PROTOTYPE | no educational validity claim",
+  "source": "results/review_examples.json",
+  "rows": [
+    {
+      "label": "hint level (2 attempts, mastery .5)",
+      "path": [
+        "outputs",
+        "hint level (2 attempts, mastery .5)"
+      ],
+      "unit": "unitless"
+    },
+    {
+      "label": "hint level (0 attempts, mastery .9)",
+      "path": [
+        "outputs",
+        "hint level (0 attempts, mastery .9)"
+      ],
+      "unit": "unitless"
+    }
+  ],
+  "table_title": "Worked example — illustrative, not a measured research result",
+  "evidence_note": "Illustrative inputs and calculations are in scripts/review_examples.py.",
+  "finding": "This compact tutoring policy selects a level of support from supplied mastery and attempt counts. Its rules escalate from a focused question to a worked sub-step while keeping the full answer outside the main response policy. The synthetic examples make the decision boundaries easy to inspect, but the package neither estimates mastery nor demonstrates improved learning."
+}
